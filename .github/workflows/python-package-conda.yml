@@ -34,5 +34,6 @@ jobs:
     - name: Test with pytest
       run: |
         pip3 install numpy
+        pip3 install pandas
         conda install pytest
         pytest
