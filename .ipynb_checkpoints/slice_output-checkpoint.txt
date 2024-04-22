@@ -1,0 +1,16 @@
+workclass: Without-pay, Count: 4
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+education: Some-college, Count: 1,485
+Precision: 0.7371 | Recall: 0.5668 | F1: 0.6408
+marital-status: Widowed, Count: 208
+Precision: 1.0000 | Recall: 0.1579 | F1: 0.2727
+occupation: Transport-moving, Count: 317
+Precision: 0.7273 | Recall: 0.3750 | F1: 0.4948
+relationship: Wife, Count: 322
+Precision: 0.7143 | Recall: 0.6294 | F1: 0.6691
+race: White, Count: 5,595
+Precision: 0.7671 | Recall: 0.6275 | F1: 0.6903
+sex: Male, Count: 4,387
+Precision: 0.7684 | Recall: 0.6547 | F1: 0.7070
+native-country: Yugoslavia, Count: 2
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000

@@ -30,7 +30,7 @@ data = {
 }
 
 # TODO: send a POST using the data above
-r = requests.post("http://127.0.0.1:8000/data/", json=data)
+r = requests.post("http://127.0.0.1:8000/predict/", json=data)
 
 # TODO: print the status code
 print("Status Code:", r.status_code)

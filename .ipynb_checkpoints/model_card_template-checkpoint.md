@@ -4,25 +4,14 @@ For additional information see the Model Card paper: https://arxiv.org/pdf/1810.
 
 ## Model Details
 
-Name: Predictve Census Pipeline
-Type: AdaBoostClassifier
-Version: 1
-Developed by: James Meares
-Date: 4/16/2024
-
 ## Intended Use
-
-Development of a classification model on publicly available Census Bureau data. 
 
 ## Training Data
 
 ## Evaluation Data
 
 ## Metrics
-
-Precision: 0.7637 
-Recall: 0.6276 
-F1: 0.6890
+_Please include the metrics used and your model's performance on those metrics._
 
 ## Ethical Considerations
 
