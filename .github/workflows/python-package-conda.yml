@@ -22,7 +22,7 @@ jobs:
       run: |
         conda install numpy
         conda install pandas
-        conda install sklearn
+        conda install scikit-learn
         conda update --all
         conda env create --file environment.yml --name fastapi
         eval "$(conda shell.bash hook)"
