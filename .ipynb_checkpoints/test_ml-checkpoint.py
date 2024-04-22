@@ -1,5 +1,6 @@
 import pytest
 import numpy as np
+import pandas
 from ml.model import train_model
 # TODO: add necessary import
 
