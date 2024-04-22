@@ -13,7 +13,7 @@ def null_test():
 
     expected_cols = 15
     actual_cols = data.shape[1]
-
+    
     assert actual_cols == expected_cols
 # TODO: implement the second test. Change the function name and input as needed
 def test_train_model():
