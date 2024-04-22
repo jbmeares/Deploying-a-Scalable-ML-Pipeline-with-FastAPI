@@ -5,11 +5,15 @@ from ml.model import train_model
 
 # TODO: implement the first test. Change the function name and input as needed
 def null_test():
-    # Test to ensure data has no null values
+    # Ensure number of columns in dataset is correct
 
-    assert data.shape == data.dropna().shape
-    pass
+    data_path = './data/census.csv'
+    data = pd.read_csv(data_path)
 
+    expected_cols = 15
+    actual_cols = data.shape[1]
+
+    assert actual_cols == expected_cols
 # TODO: implement the second test. Change the function name and input as needed
 def test_train_model():
     # generate synthetic data for testing
