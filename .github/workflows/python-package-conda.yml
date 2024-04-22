@@ -22,7 +22,7 @@ jobs:
       run: |
         conda update --all
         conda env create --file environment.yml --name fastapi
-        eva; "$(conda shell.bash hook)"
+        eval "$(conda shell.bash hook)"
         conda activate fastapi
     - name: Lint with flake8
       run: |
