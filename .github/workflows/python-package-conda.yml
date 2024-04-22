@@ -21,10 +21,9 @@ jobs:
     - name: Install dependencies
       run: |        
         conda update --all
-        conda env create --file environment.yml -- name test
+        conda env create --file environment.yml -- name base
         eval "$(conda shell.bach hook)"
-        conda activate test
-       #conda env update --file environment.yml --name base
+        conda activate base
     - name: Lint with flake8
       run: |
         conda install flake8
