@@ -32,14 +32,7 @@ data = {
 # TODO: send a POST using the data above
 r = requests.post("http://127.0.0.1:8000/data/", json=data)
 
-try:
-    response = requests.post(url=predict_url, json=data)
-    response.raise_for_status()  # Raise an exception for HTTP errors
-    return response.json()
-except requests.exceptions.RequestException as e:
-    print("Error occurred during request:", e)
-    return None
-    
+   
 # TODO: print the status code
 print("Status Code:", r.status_code)
 # TODO: print the result
