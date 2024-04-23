@@ -27,7 +27,7 @@ jobs:
         conda env create --file environment.yml --name fastapi
         eval "$(conda shell.bash hook)"
         conda activate fastapi
-        conda install pytest
+        
         
     - name: Lint with flake8
       run: |
@@ -38,4 +38,5 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
+        conda install pytest
         pytest 
